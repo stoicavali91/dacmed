@@ -1,0 +1,274 @@
+.dacmed__prices{
+}
+
+.dacmed__prices-title{
+  display: flex;
+  margin: 4rem 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+.dacmed__prices-title p{
+  width: 80%;
+}
+.dacmed__prices-title h1{
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  margin: 1rem 0;
+
+}
+.dacmed__prices-title p{
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  margin: 1rem 0;
+
+}
+.dacmed__prices-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+.dacemed__prices-content_table-title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dacemed__prices-content_table h1{
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+}
+.dacemed__prices-content_table p{
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+}
+.dacemed__prices-content_table h3{
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 140%;
+}
+.dacemed__prices-content_table-checks{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+  margin-top: 2rem;
+}
+.checked-list-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  bottom: 2rem;
+}
+.dacmed__prices-content_tab h2{
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+  margin: 1rem 0;
+
+}
+.dacmed__prices-content_tab p{
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  margin: 1rem 0;
+
+}
+.dacmed__prices-content_table{
+  flex: 1;
+  flex-direction: column;
+  display: flex;
+  border: 1px solid #232222;
+  border-radius: 8px;
+  padding: 1rem;
+  width: 100%;
+  text-align: left;
+  flex-grow: 1;
+  height: 480px;
+}
+.dacmed__prices-content_table h3{
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 140%;
+}
+.dacmed__prices-content_table h1{
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 120%;
+}
+.dacmed__prices-content_table p{
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+.price-span{
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+}
+.dacmed__prices-content_table-first{
+  display: flex;
+  gap: 2rem;
+  border-bottom: 1px solid #232222;  
+  padding: 1rem 0;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+.dacmed__prices-content_table-second{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-bottom: 1px solid #232222;  
+  padding: 1rem 0;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+.dacmed__prices-content_table-second_list{
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  gap: 2rem;
+  padding-right: 10%;  
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+.checked-list{
+  padding: 0.5rem 0;
+}
+.checked-list img{
+  padding-right: 1rem;  
+}
+.checked-list p{
+  display: inline-block;
+}
+.button1{
+  background: var(--color-red);
+  color: var(--color-bg);
+  border-width: 0;
+  width: 100%;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 8px;
+  position: relative;
+  text-align: center;
+}
+@media screen and (max-width: 1440px){
+  .dacmed__prices-content_table{
+    min-width: 500px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .dacmed__prices{
+  }
+  .dacmed__prices-title{
+    max-width: 100%;
+    margin: 0;
+    text-align: center;
+  }
+  .dacmed__prices-content{
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .dacmed__prices-content_tab{
+    gap: 2rem;
+    margin-right: 0;
+  }
+  
+  .dacmed__prices-content_tab h2{
+    margin-bottom: 0;
+  }
+  .dacmed__prices-content_table{
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .dacmed__prices-title{
+    text-align: left;
+  }
+  .dacmed__prices-title h1{
+    font-size: 40px;
+  }
+  .dacmed__prices-content_tab h2{
+    font-size: 28px;
+  }
+  .dacmed__prices-title p{
+    font-size: 16px;
+  }
+  .dacmed__prices-content_tab p{
+    font-size: 16px;
+  }
+  
+  .dacmed__prices-content_table{
+    min-width: 90%;
+    gap: 1rem;
+  }
+  .dacmed__prices-content_table-first{
+    gap: 1rem;
+    flex-direction: column;
+  }
+  .dacmed__prices-content_table-second{
+    gap: 1rem;
+  }
+  .dacmed__prices-content_table-second_list{
+    gap: 0;
+    padding: 0;
+    flex-direction: column;
+   
+}
+.checked-list{
+  padding: 0.5rem;
+}
+  .dacmed__prices-content_table img{
+    padding: 0;
+  }
+  .dacmed__prices-content{
+    margin: 0 0 3rem;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .dacmed__prices{
+    margin: 0;
+  }
+  .dacmed__prices-title h1{
+    font-size: 36px;
+  }
+  .dacmed__prices-content_tab h2{
+    font-size: 28px;
+  }
+  .dacmed__prices-title p{
+    font-size: 12px;
+  }
+  .dacmed__prices-content_tab p{
+    font-size: 12px;
+  }
+
+  .dacmed__prices-content{
+    margin: 0 0 2rem;
+  }
+}

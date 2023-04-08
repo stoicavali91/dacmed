@@ -1,0 +1,125 @@
+.dacmed__list-grid{
+  display: grid;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.dacmed__list-grid h3{
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+}
+.dacmed__list-grid p{
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  margin-right: 6rem;
+  word-wrap: break-word;
+}
+.dacmed__list-grid_cap-tabel{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  border-bottom: 1px solid black;
+  padding: 1rem 2rem;
+}
+.dacmed__list-grid_cap-tabel p{
+  padding-right: 3rem;
+
+}
+.dacmed__list-grid_cap-tabel button{
+  margin-right: 2rem;
+  background: var(--color-red);
+  color: var(--color-bg);
+  border-width: 0;
+  padding: 1rem;
+  border-radius: 8px;
+}
+.dacmed__list-grid_item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  border-bottom: 1px solid black;
+  padding: 1rem 4rem;
+}
+.dacmed__background-gray{
+  background-color: #F4F4F4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  border-bottom: 1px solid black;
+  padding: 1rem 2rem;
+  gap: 1rem;
+}
+.no_border{
+  border-bottom: 0px solid black;
+
+}
+.dacmed__list-grid_section{
+  display: flex;
+  flex-direction: row;
+  padding-left: -1rem;
+
+}
+.dacmed__list-grid_img{
+  width: 1rem;
+    height: 1.5rem;
+    margin-right: 1rem;
+    /* margin-left: -2.5rem rem; */
+
+}
+.dacmed__list-grid_img img{
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(-180deg) skew(0deg, 0deg); 
+  transform-style: preserve-3d;
+}
+.dacmed__list-grid_item-image-upx{
+  transform: rotate(180deg);
+  transition: all 0.75s 0.25s;
+  width: 1rem;
+    height: 1.5rem;
+    margin-right: 1rem;
+
+}
+.dacmed__list-grid_item-image-downx{
+  transform: rotate(0);
+  transition: all 0.75s 0.25s;
+  width: 1rem;
+  height: 1.5rem;
+  margin-right: 1rem;
+
+}
+
+@media screen and (max-width:1260px ) {
+  .dacmed__list-grid p{
+    margin: 0;
+    text-align: right;
+  }
+  .dacmed__list-grid h3{
+    word-wrap: break-word;
+    padding-right: 2rem;
+  }
+  .dacmed__list-grid_item{
+    padding: 1rem 1rem;
+  }
+  .dacmed__list-grid_cap-tabel{
+    padding: 1rem;
+  }
+  .dacmed__list-grid_cap-tabel p{
+    display: none;
+  }
+  .dacmed__list-grid_cap-tabel button{
+    margin: 0;
+  }
+  .dacmed__background-gray{
+    padding-left: 1rem;
+  }
+
+}

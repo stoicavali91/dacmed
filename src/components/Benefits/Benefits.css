@@ -1,0 +1,131 @@
+.dacmed__benefits{
+  margin-top: 4rem;
+}
+
+.dacmed__benefits-title{
+  display: flex;
+  margin: 4rem 0;
+  flex-direction: column;
+  max-width: 60%;
+}
+.dacmed__benefits-title h1{
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  margin: 1rem 0;
+
+}
+.dacmed__benefits-title p{
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  margin: 1rem 0;
+
+}
+.dacmed__benefits-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+.dacmed__benefits-content_tab{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  margin-right: 4rem;
+}
+
+.dacmed__benefits-content_tab h2{
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  margin: 1rem 0;
+
+}
+.dacmed__benefits-content_tab p{
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  margin: 1rem 0;
+
+}
+
+.dacmed__benefits-content_image{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dacmed__benefits-content_image img{
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 1050px) {
+  .dacmed__benefits{
+    text-align: center;
+  }
+  .dacmed__benefits-title{
+    max-width: 100%;
+  }
+  .dacmed__benefits-content{
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .dacmed__benefits-content_tab{
+    gap: 2rem;
+    margin-right: 0;
+  }
+  
+  .dacmed__benefits-content_tab h2{
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 650px) {
+  .dacmed__benefits-title h1{
+    font-size: 48px;
+  }
+  .dacmed__benefits-content_tab h2{
+    font-size: 40px;
+  }
+  .dacmed__benefits-title p{
+    font-size: 16px;
+  }
+  .dacmed__benefits-content_tab p{
+    font-size: 16px;
+  }
+
+  .dacmed__benefits-content{
+    margin: 0 0 3rem;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .dacmed__benefits{
+    margin: 0;
+  }
+  .dacmed__benefits-title h1{
+    font-size: 36px;
+  }
+  .dacmed__benefits-content_tab h2{
+    font-size: 28px;
+  }
+  .dacmed__benefits-title p{
+    font-size: 12px;
+  }
+  .dacmed__benefits-content_tab p{
+    font-size: 12px;
+  }
+
+  .dacmed__benefits-content{
+    margin: 0 0 2rem;
+  }
+}

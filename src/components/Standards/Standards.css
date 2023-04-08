@@ -1,0 +1,45 @@
+.dacmed__standards{
+ 
+  margin-top: 4rem;
+}
+.dacmed__standards-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 4rem;
+}
+.dacmed__standards-content_tab img{
+  width: 120px;
+  height: 120px;
+}
+.dacmed__standards-content_tab h2{
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+}
+
+.dacmed__standards-content_tab p{
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  max-width: 90%;
+}
+
+@media screen and (max-width: 1050px){
+  .dacmed__standards-content{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .dacmed__standards-content_tab p{
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 490px) {
+  .dacmed__standards{
+    margin: 0;
+  }
+}
