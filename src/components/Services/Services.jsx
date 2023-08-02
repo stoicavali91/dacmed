@@ -14,7 +14,7 @@ const Services = () => {
         <h2>Ingrijiri la domiciliu</h2>
         <p>Tratamentele medicale efectuate la domiciliu, asigura confortul și siguranța pacienților, fiind important pentru pacienții vârstnici, acestia fiind mult mai sensibili la schimbarile de mediu.</p>
       </div>
-      <div className='dacmed__services-content_tab'>
+      {/* <div className='dacmed__services-content_tab'>
         <img src={Dializa} alt="dializa" />
         <h2>Transport la Centrul de Dializa</h2>
         <p>In colaborare cu centrele de dializa, asiguram transportul în deplina siguranță a pacienților.In colaborare cu centrele de dializa, asiguram transportul în deplina siguranță a pacienților.</p>
@@ -25,7 +25,7 @@ const Services = () => {
         <img src={Transport} alt="transport" />
         <h2>Transport intern/extern</h2>
         <p>Rapiditatea, flexibilitatea și confortul pacientului, sunt elementele care caracterizează echipa DACMed.</p>
-      </div>
+      </div> */}
       <div className='dacmed__services-content_tab'>
         <img src={Colectiv} alt="colectiv" />
         <h2>Asistenta medicala colectiva</h2>

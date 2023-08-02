@@ -71,7 +71,7 @@ const PriceList = () => {
         </div>
         <div className='dacmed__list-grid_item'>
           <h3>Montare sondă vezicală barbati</h3>
-          <p>250lei</p>
+          <p>200lei</p>
         </div>
         <div className='dacmed__list-grid_item'>
           <h3>Scos sonda</h3>
@@ -97,11 +97,11 @@ const PriceList = () => {
 
         <div className={isActive2 ? 'answer show' : 'answer'}>
         <div className='dacmed__list-grid_item'>
-          <h3>Recoltare venoasa</h3>
+          <h3>Recoltare analize</h3>
           <p>70lei</p>
         </div>
         </div>
-        <div className='dacmed__background-gray' onClick={handleClick3}>
+        {/* <div className='dacmed__background-gray' onClick={handleClick3}>
           <div className='dacmed__list-grid_section'>
             <img src={QArrow} alt="arrow" className={isActive3 ? 'dacmed__list-grid_item-image-upx' : 'dacmed__list-grid_item-image-downx'}/>
             <h3>Transport</h3>
@@ -115,6 +115,17 @@ const PriceList = () => {
         <div className='dacmed__list-grid_item'>
           <h3>Transport asistat Ilfov + restul Romaniei (se adauga o taxa de 10lei/etaj la blocuri fara lift)</h3>
           <p>300lei + 3lei/km</p>
+        </div>
+        </div> */}
+        <div className='dacmed__background-gray' onClick={handleClick3}>
+          <div className='dacmed__list-grid_section'>
+            <img src={QArrow} alt="arrow" className={isActive3 ? 'dacmed__list-grid_item-image-upx' : 'dacmed__list-grid_item-image-downx'}/>
+            <h3>Urgente medicale</h3>
+          </div>
+        </div>
+        <div className={isActive3 ? 'answer show' : 'answer'}>
+        <div className='dacmed__list-grid_item'>
+          <h3>Urgente medicale la domiciliu / tarif in functie de urgenta</h3>
         </div>
         </div>
         <div className='dacmed__background-gray' onClick={handleClick4}>
@@ -141,7 +152,7 @@ const PriceList = () => {
           <p>100lei</p>
         </div>
         <div className='dacmed__list-grid_item no_border'>
-          <h3>Escară Gradul I, II, III, IV</h3>
+          <h3>Escară</h3>
           <p>150lei</p>
         </div>
       </div>

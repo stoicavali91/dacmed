@@ -67,6 +67,7 @@
 .dacmed__benefits-content_image img{
   width: 100%;
   height: 100%;
+  border-radius: 8px;
 }
 
 @media screen and (max-width: 1050px) {

@@ -40,7 +40,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className='dacmed__navbar-contact'>
-        <a href="tel:+40726390146"><button type='button'>Suna Acum!</button></a>
+        <a href="tel:+40736987433"><button type='button'>Suna Acum!</button></a>
         
       </div>
       <div className='dacmed__navbar-menu' ref={refOne}>

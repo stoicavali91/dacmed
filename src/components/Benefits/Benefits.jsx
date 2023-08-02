@@ -1,6 +1,6 @@
 import React from 'react';
 import './Benefits.css';
-import Marius from '../../assets/Marius.png'
+import Marius from '../../assets/marius.jpeg'
 
 const Benefits = () => {
   return (

@@ -11,11 +11,11 @@ const Footer = () => {
       <div className='dacmed__footer-section1'>
       <a href="#home"><img src={FooterLogo} alt="logo" /></a>
         <div>
-          <a href="https://www.facebook.com/marius.stoica.7330" target="_blank" rel="noopener noreferrer"><FaFacebookF/></a>
-          <a href="https://www.facebook.com/marius.stoica.7330" target="_blank" rel="noopener noreferrer"><FaInstagram/></a>
-          <a href="https://www.facebook.com/marius.stoica.7330" target="_blank" rel="noopener noreferrer"><FaTwitter/></a>
+          <a href="https://www.facebook.com/profile.php?id=100091757813184" target="_blank" rel="noopener noreferrer"><FaFacebookF/></a>
+          <a href="https://www.instagram.com/dacmed_ambulanta/" target="_blank" rel="noopener noreferrer"><FaInstagram/></a>
+          {/* <a href="https://www.facebook.com/marius.stoica.7330" target="_blank" rel="noopener noreferrer"><FaTwitter/></a>
           <a href="https://www.facebook.com/marius.stoica.7330" target="_blank" rel="noopener noreferrer"><FaLinkedin/></a>
-          <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer"><FaGoogle/></a>
+          <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer"><FaGoogle/></a> */}
         </div>
       </div>
       <div className='dacmed__footer-section2'>

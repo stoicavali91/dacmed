@@ -19,7 +19,7 @@ const Contact = () => {
           <a href="tel:+40726390146"><img src={Phone} alt="phone" /></a>
           <h3>Telefon</h3>
           <p>Apeleaza la numarul:</p>
-          <a href="tel:+40726390146">+40726390146</a>
+          <a href="tel:+40726390146">+40736987433</a>
         </div>
         <div className='dacmed__contact-item'>
           <a href="https://goo.gl/maps/549AoAeEAMP6LBQX7" target="_blank" rel="noopener noreferrer"><img src={Location} alt="location"/></a>
