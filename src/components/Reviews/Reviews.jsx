@@ -18,8 +18,8 @@ const Reviews = () => {
             <img src={Star} alt="star"/>
             <img src={Star} alt="star"/>
           </div>
-          <p>Personalul medical are pregătirea și cunoștințele necesare pentru a furniza servicii de calitate.</p>
-          <img src={Avatar} alt="avatar" className='avatar'/>
+          <p>"Am făcut apel la serviciile de asistență medicală la domiciliu pentru mama mea și am fost extrem de mulțumită. Echipa a fost promptă, profesionistă și cu adevărat dedicată nevoilor pacientului. Recomand cu încredere!"</p>
+          {/* <img src={Avatar} alt="avatar" className='avatar'/> */}
           <h4>Ana-Maria R.</h4>
           <h4>Client</h4>
         </div>
@@ -31,8 +31,8 @@ const Reviews = () => {
             <img src={Star} alt="star"/>
             <img src={Star} alt="star"/>
           </div>
-          <p>Am apelat la serviciile lor pentru administrarea unei perfuzii. Asistentul a fost foarte atent la nevoile mele. Ma declar multumit de serviciile prestate!</p>
-          <img src={Avatar} alt="avatar" className='avatar'/>
+          <p>"Când tatăl meu a avut nevoie de îngrijiri medicale post-operatorii, serviciul de asistență medicală la domiciliu DacMed a fost o binecuvântare. Personalul instruit și atent ne-a asigurat că totul merge bine. Apreciem enorm devotamentul și profesionalismul lor."</p>
+          {/* <img src={Avatar} alt="avatar" className='avatar'/> */}
           <h4>Valentin S.</h4>
           <h4>Client</h4>
         </div>
@@ -44,9 +44,9 @@ const Reviews = () => {
             <img src={Star} alt="star"/>
             <img src={Star} alt="star"/>
           </div>
-          <p>Aceasta firma m-a ajutat de multe ori sa scap de starile mele de rau. Ofera si consiliere psihologica, deoarece nu sunt prea intreaga la minte!
+          <p>"Colaborarea cu echipa DacMed a fost dincolo de așteptările mele. Au fost alături de familia mea în momente dificile, oferindu-ne suport și îngrijiri medicale de cea mai înaltă calitate. Le sunt profund recunoscătoare și îi recomand cu toată inima."
           </p>
-          <img src={Avatar} alt="avatar" className='avatar'/>
+          {/* <img src={Avatar} alt="avatar" className='avatar'/> */}
           <h4>Adriana</h4>
           <h4>Client</h4>
         </div>

@@ -167,6 +167,7 @@
   display: inline-block;
 }
 .button1{
+  font-family: var(--font-family);
   background: var(--color-red);
   color: var(--color-bg);
   border-width: 0;

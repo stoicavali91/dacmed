@@ -19,10 +19,7 @@ const Footer = () => {
         </div>
       </div>
       <div className='dacmed__footer-section2'>
-        <p>© 2023 Relume. All rights reserved.</p>
-        <p>Privacy Policy</p>
-        <p>Terms of Service</p>
-        <p>Cookies Settings</p>
+        <p>© 2023 Ambulanta DACMED. All rights reserved.</p>
       </div>
     </div>
   )

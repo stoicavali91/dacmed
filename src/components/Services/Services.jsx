@@ -29,7 +29,7 @@ const Services = () => {
       <div className='dacmed__services-content_tab'>
         <img src={Colectiv} alt="colectiv" />
         <h2>Asistenta medicala colectiva</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
+        <p>Oferim suport medical specializat pentru evenimente din domeniile artistic, cultural, sportiv și educativ. Pentru manifestările sportive, artistice și culturale, dispunem de echipamente medicale complete, adaptate cerințelor organizatorilor și detaliilor contractuale stabilite.</p>
       </div>
     </div>
   </div>
