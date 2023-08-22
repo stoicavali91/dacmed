@@ -1,8 +1,8 @@
 import React from 'react';
 import './Services.css';
 import Ingrijire from '../../assets/Ingrijire.png';
-import Dializa from '../../assets/Dializa.png';
-import Transport from '../../assets/Transport.png';
+// import Dializa from '../../assets/Dializa.png';
+// import Transport from '../../assets/Transport.png';
 import Colectiv from '../../assets/Colectiv.png';
 
 const Services = () => {

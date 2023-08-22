@@ -1,7 +1,7 @@
 import React from 'react';
 import './Reviews.css';
 import Star from '../../assets/Star.svg';
-import Avatar from '../../assets/Avatar.svg';
+// import Avatar from '../../assets/Avatar.svg';
 const Reviews = () => {
   return (
     <div className='dacmed__reviews section__pading' id='standarde'>
